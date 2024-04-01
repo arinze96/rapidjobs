@@ -6,18 +6,18 @@
     @include('includes.home_css')
 </head>
 
-<body>
 
-@include('includes.home_header')
+<body>
+    @include('includes.home_header_one')
+
     <main>
         <div class="job_container">
             <div class="container">
                 <div class="row job_main">
                     <div class="sidebar">
-
                         <ul class="user_navigation">
                             <li>
-                                <a href="find-staff.html"><i class="fas fa-search"></i> Find Staff </a>
+                                <a href="browse-jobs.html"><i class="fas fa-search"></i> Browse Jobs </a>
                                 <a class="filter_btn" href="#sidebar_filter_option">
                                     <i class="fas fa-filter"></i>
                                     <i class="fas fa-times"></i>
@@ -109,30 +109,28 @@
 
                                 </form>
                             </li>
-                            <li class="is-active">
-                                <a href="job-dashboard.html">
-                                    <i class="fas fa-border-all"></i> Job Dashboard </a>
+                            <li>
+                                <a href="job-seeker-dashboard.html">
+                                    <i class="fas fa-border-all"></i> Job Dashboard
+                                </a>
                             </li>
                         </ul>
                         <h5>Organize and Manage</h5>
                         <ul class="user_navigation">
-                            <li>
-                                <a href="post-a-job.html"><i class="fas fa-paper-plane"></i> Post Job</a>
-                            </li>
-                            <li>
-                                <a href="my-job-listing.html"><i class="far fa-list-alt"></i> My job listings</a>
+                            <li class="is-active">
+                                <a href="my-stared-jobs.html"><i class="fas fa-star"></i> View My Stared Jobs</a>
                             </li>
                         </ul>
                         <h5>Account</h5>
                         <ul class="user_navigation">
                             <li>
-                                <a href="emp-edit-profile.html"><i class="fas fa-user"></i> Update My Profile</a>
+                                <a href="edit-profile.html"><i class="fas fa-user"></i> Update My Profile</a>
                             </li>
                             <li>
-                                <a href="emp-edit-password.html"><i class="fas fa-key"></i>Change Password</a>
+                                <a href="edit-password.html"><i class="fas fa-key"></i>Change Password</a>
                             </li>
                             <li>
-                                <a href="#"><i class="fas fa-power-off"></i> Logout</a>
+                                <a href="edit-password.html"><i class="fas fa-power-off"></i> Logout</a>
                             </li>
                         </ul>
                     </div>
@@ -140,49 +138,66 @@
                         <div class="row job_section">
                             <div class="col-sm-12">
                                 <div class="jm_headings">
-                                    <h4>Hello, Donec Software !</h4>
+                                    <h6>My favourite/starred jobs</h6>
                                 </div>
-                                <div class="dashboard_boxes row">
-                                    <div class="col-md-4">
-                                        <div class="dashboard_box ">
-                                            <i class="fas fa-paper-plane"></i>
-                                            <h2><span>18</span>Jobs Posted</h2>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="dashboard_box ">
-                                            <i class="fas fa-user-check"></i>
-                                            <h2><span>68</span>job Seekers Applied </h2>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="dashboard_box ">
-                                            <i class="fas fa-comments"></i>
-                                            <h2><span>28</span>Reviews </h2>
-                                        </div>
-                                    </div>
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th class="job_title">Job Title</th>
+                                            <th class="date">Email Sent on </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="job_title"><a href="job-single.html">TEST Full Job Waiter</a>
+                                            </td>
+                                            <td class="expires">September 30, 2020</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="job_title"><a href="job-single.html">Resort Manage</a></td>
+                                            <td class="expires">October 15, 2020</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="job_title"><a href="job-single.html">Resort Manage</a></td>
+                                            <td class="expires">October 15, 2020</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="section-divider">
+                        </div>
+                        <div class="row job_section">
+                            <div class="col-sm-12">
+                                <div class="jm_headings">
+                                    <h6>Job I contacted for</h6>
                                 </div>
-                                <div class="section-divider">
-                                </div>
-
-                                <h4> Your Profile Views</h4>
-                                <div id="chartdiv" style="width: 100%; height: 400px; background-color: #FFFFFF;">
-                                </div>
-                                <div class="section-divider">
-                                </div>
-                                <div class="col-md-12">
-                                    <div class=" job_seekernotifi ondahsboard">
-                                        <h4>Inbox</h4>
-                                        <ul>
-                                            <li><img alt="" src="{{ asset("assets/images/profile-1.png") }}"><a
-                                                    href="#"> John Stone applying this job contact </a> </li>
-                                            <li><img alt="" src="{{ asset("assets/images/profile-1.png") }}"><a
-                                                    href="#">Nguta Ithya applying this job contact </a> </li>
-                                            <li><img alt="" src="{{ asset("assets/images/profile-4.png") }}"><a
-                                                    href="#">Salome Simoes applying this job</a> </li>
-                                        </ul>
-                                    </div>
-                                </div>
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th class="job_title">Job Title</th>
+                                            <th class="date">Email Sent on </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="job_title"><a href="job-single.html">Job for waitor</a></td>
+                                            <td class="expires">September 26, 2019</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="job_title"><a href="job-single.html">test new</a></td>
+                                            <td class="expires">September 26, 2019</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="job_title"><a href="job-single.html">Hotel Assistance</a></td>
+                                            <td class="expires">September 26, 2019</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="job_title"><a href="job-single.html">Assistance </a></td>
+                                            <td class="expires">September 26, 2019</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                             </div>
                         </div>
                     </div>
@@ -190,6 +205,8 @@
             </div>
         </div>
     </main>
+
+
     @include('includes.home_footer')
     @include('includes.home_js')
 </body>

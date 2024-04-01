@@ -36,8 +36,8 @@
             </div>
         </div>
     </main>
+    @include('includes.home_footer')
     @include('includes.home_js')
-
 </body>
 
 </html>

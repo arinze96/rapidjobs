@@ -7,17 +7,15 @@
 </head>
 
 <body>
-
-@include('includes.home_header')
+    @include('includes.home_header')
     <main>
         <div class="job_container">
             <div class="container">
                 <div class="row job_main">
                     <div class="sidebar">
-
                         <ul class="user_navigation">
                             <li>
-                                <a href="find-staff.html"><i class="fas fa-search"></i> Find Staff </a>
+                                <a href="browse-jobs.html"><i class="fas fa-search"></i> Browse Jobs </a>
                                 <a class="filter_btn" href="#sidebar_filter_option">
                                     <i class="fas fa-filter"></i>
                                     <i class="fas fa-times"></i>
@@ -109,30 +107,28 @@
 
                                 </form>
                             </li>
-                            <li class="is-active">
-                                <a href="job-dashboard.html">
-                                    <i class="fas fa-border-all"></i> Job Dashboard </a>
+                            <li>
+                                <a href="job-seeker-dashboard.html">
+                                    <i class="fas fa-border-all"></i> Job Dashboard
+                                </a>
                             </li>
                         </ul>
                         <h5>Organize and Manage</h5>
                         <ul class="user_navigation">
                             <li>
-                                <a href="post-a-job.html"><i class="fas fa-paper-plane"></i> Post Job</a>
-                            </li>
-                            <li>
-                                <a href="my-job-listing.html"><i class="far fa-list-alt"></i> My job listings</a>
+                                <a href="my-stared-jobs.html"><i class="fas fa-star"></i> View My Stared Jobs</a>
                             </li>
                         </ul>
                         <h5>Account</h5>
                         <ul class="user_navigation">
-                            <li>
-                                <a href="emp-edit-profile.html"><i class="fas fa-user"></i> Update My Profile</a>
+                            <li class="is-active">
+                                <a href="edit-profile.html"><i class="fas fa-user"></i> Update My Profile</a>
                             </li>
                             <li>
-                                <a href="emp-edit-password.html"><i class="fas fa-key"></i>Change Password</a>
+                                <a href="edit-password.html"><i class="fas fa-key"></i>Change Password</a>
                             </li>
                             <li>
-                                <a href="#"><i class="fas fa-power-off"></i> Logout</a>
+                                <a href="edit-password.html"><i class="fas fa-power-off"></i> Logout</a>
                             </li>
                         </ul>
                     </div>
@@ -140,49 +136,118 @@
                         <div class="row job_section">
                             <div class="col-sm-12">
                                 <div class="jm_headings">
-                                    <h4>Hello, Donec Software !</h4>
-                                </div>
-                                <div class="dashboard_boxes row">
-                                    <div class="col-md-4">
-                                        <div class="dashboard_box ">
-                                            <i class="fas fa-paper-plane"></i>
-                                            <h2><span>18</span>Jobs Posted</h2>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="dashboard_box ">
-                                            <i class="fas fa-user-check"></i>
-                                            <h2><span>68</span>job Seekers Applied </h2>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="dashboard_box ">
-                                            <i class="fas fa-comments"></i>
-                                            <h2><span>28</span>Reviews </h2>
-                                        </div>
-                                    </div>
+                                    <h5>Update My Profile</h5>
+                                    <a class="btn btn-primary mypbtn" href="staff-profile-single.html">My profile</a>
                                 </div>
                                 <div class="section-divider">
                                 </div>
+                                <form>
+                                    <div class="big_form_group">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group ">
+                                                    <label>First Name</label>
+                                                    <input type="text" class="form-control" placeholder=""
+                                                        value="Dedolp ">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group ">
+                                                    <label>Last Name</label>
+                                                    <input type="text" class="form-control" placeholder=""
+                                                        value="Seofls ">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group ">
+                                                    <label>Email</label>
+                                                    <input type="text" class="form-control" placeholder=""
+                                                        value="Seofls@itsexample.com ">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group ">
+                                                    <label>User Name</label>
+                                                    <input type="text" class="form-control" placeholder=""
+                                                        value="Seofls_ss ">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="big_form_group">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group ">
+                                                    <label>Location</label>
+                                                    <input type="text" class="form-control" placeholder=""
+                                                        value="London, United Kingdom ">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group ">
+                                                    <label>Job Type</label>
+                                                    <input type="text" class="form-control" placeholder=""
+                                                        value="Full time ">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group ">
+                                                    <label>Expected Salary</label>
+                                                    <input type="text" class="form-control" placeholder=""
+                                                        value="$35k - $38k">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group ">
+                                                    <label>Total experience</label>
+                                                    <input type="text" class="form-control" placeholder=""
+                                                        value="5 Years ">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
 
-                                <h4> Your Profile Views</h4>
-                                <div id="chartdiv" style="width: 100%; height: 400px; background-color: #FFFFFF;">
-                                </div>
-                                <div class="section-divider">
-                                </div>
-                                <div class="col-md-12">
-                                    <div class=" job_seekernotifi ondahsboard">
-                                        <h4>Inbox</h4>
-                                        <ul>
-                                            <li><img alt="" src="{{ asset("assets/images/profile-1.png") }}"><a
-                                                    href="#"> John Stone applying this job contact </a> </li>
-                                            <li><img alt="" src="{{ asset("assets/images/profile-1.png") }}"><a
-                                                    href="#">Nguta Ithya applying this job contact </a> </li>
-                                            <li><img alt="" src="{{ asset("assets/images/profile-4.png") }}"><a
-                                                    href="#">Salome Simoes applying this job</a> </li>
-                                        </ul>
+                                    <div class="big_form_group">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group ">
+                                                    <label>Skills</label>
+                                                    <select class="form-control">
+                                                        <option>
+                                                            PHP
+                                                        </option>
+                                                        <option>
+                                                            MySQL
+                                                        </option>
+                                                        <option>
+                                                            API Development
+                                                        </option>
+
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group ">
+                                                    <label>Attachments</label>
+                                                    <input type="file" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="form-group ">
+                                                    <label>Jobseekers Description</label>
+                                                    <textarea class="form-control">
+                                             </textarea>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
+                                    <div class="form-group row">
+                                        <div class="col-md-9 ">
+                                            <button type="submit" class="btn btn-primary">Submit</button>
+                                        </div>
+                                    </div>
+
+                                </form>
                             </div>
                         </div>
                     </div>

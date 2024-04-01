@@ -1,11 +1,13 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     @include('includes.general_title')
     @include('includes.home_css')
 </head>
+
 <body>
-   @include('includes.home_header')
+    @include('includes.home_header')
     <main>
         <div class="section category-section ">
             <div class="bg-v">
@@ -625,7 +627,8 @@
             </div>
         </div>
     </main>
-    @include("includes.home_footer")
-   @include('includes.home_js')
+    @include('includes.home_footer')
+    @include('includes.home_js')
 </body>
+
 </html>
