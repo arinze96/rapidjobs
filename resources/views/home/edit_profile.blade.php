@@ -1,13 +1,11 @@
 <!doctype html>
 <html lang="en">
-
 <head>
     @include('includes.general_title')
     @include('includes.home_css')
 </head>
-
 <body>
-    @include('includes.home_header')
+    @include('includes.home_header_one', ['pageTitle' => 'Edit User Profile'] )
     <main>
         <div class="job_container">
             <div class="container">

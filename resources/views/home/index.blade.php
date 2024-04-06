@@ -22,7 +22,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="category_box">
                             <div class="cb_header">
-                                <img alt="" src="assets/images/i-code.png">
+                                <img alt="" src="{{ asset("assets/images/i-code.png") }}">
                                 <span class="job_count">363</span>
                             </div>
                             <div class="cb_bottom">
@@ -34,7 +34,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="category_box">
                             <div class="cb_header">
-                                <img alt="" src="assets/images/i-server.png">
+                                <img alt="" src="{{ asset("assets/images/i-server.png") }}">
                                 <span class="job_count">572</span>
                             </div>
                             <div class="cb_bottom">
@@ -46,7 +46,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="category_box">
                             <div class="cb_header">
-                                <img alt="" src="assets/images/i-calculator.png">
+                                <img alt="" src="{{ asset("assets/images/i-calculator.png") }}">
                                 <span class="job_count">252</span>
                             </div>
                             <div class="cb_bottom">
@@ -58,7 +58,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="category_box">
                             <div class="cb_header">
-                                <img alt="" src="assets/images/i-pan.png">
+                                <img alt="" src="{{ asset('assets/images/i-pan.png') }}">
                                 <span class="job_count">523</span>
                             </div>
                             <div class="cb_bottom">
@@ -70,7 +70,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="category_box">
                             <div class="cb_header">
-                                <img alt="" src="assets/images/i-chart.png">
+                                <img alt="" src="{{ asset('assets/images/i-chart.png') }}">
                                 <span class="job_count">98</span>
                             </div>
                             <div class="cb_bottom">
@@ -82,7 +82,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="category_box">
                             <div class="cb_header">
-                                <img alt="" src="assets/images/i-graphic.png">
+                                <img alt="" src="{{ asset("assets/images/i-graphic.png") }}">
                                 <span class="job_count">53</span>
                             </div>
                             <div class="cb_bottom">
@@ -94,7 +94,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="category_box">
                             <div class="cb_header">
-                                <img alt="" src="assets/images/i-digital.png">
+                                <img alt="" src="{{ asset('assets/images/i-digital.png') }}">
                                 <span class="job_count">75</span>
                             </div>
                             <div class="cb_bottom">
@@ -106,7 +106,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="category_box">
                             <div class="cb_header">
-                                <img alt="" src="assets/images/i-education.png">
+                                <img alt="" src="{{ asset("assets/images/i-education.png") }}">
                                 <span class="job_count">366</span>
                             </div>
                             <div class="cb_bottom">
@@ -133,7 +133,7 @@
                         <div class="featured_box ">
                             <div class="fb_image">
                                 <a href="compnay-profile-single.html">
-                                    <img alt="brand logo" src="assets/images/c-logo-01.webp">
+                                    <img alt="brand logo" src="{{ asset("assets/images/c-logo-01.webp") }}">
                                 </a>
                             </div>
                             <div class='fb_content'>
@@ -176,7 +176,7 @@
                         <div class="featured_box ">
                             <div class="fb_image">
                                 <a href="compnay-profile-single.html">
-                                    <img alt="brand logo" src="assets/images/c-logo-02.webp">
+                                    <img alt="brand logo" src="{{ asset("assets/images/c-logo-02.webp") }}">
                                 </a>
                             </div>
                             <div class='fb_content'>
@@ -219,7 +219,7 @@
                         <div class="featured_box ">
                             <div class="fb_image">
                                 <a href="compnay-profile-single.html">
-                                    <img alt="brand logo" src="assets/images/c-logo-03.webp">
+                                    <img alt="brand logo" src="{{ asset("assets/images/c-logo-03.webp") }}">
                                 </a>
                             </div>
                             <div class='fb_content'>
@@ -262,7 +262,7 @@
                         <div class="featured_box ">
                             <div class="fb_image">
                                 <a href="compnay-profile-single.html">
-                                    <img alt="brand logo" src="assets/images/c-logo-05.webp">
+                                    <img alt="brand logo" src="{{ asset("assets/images/c-logo-05.webp") }}">
                                 </a>
                             </div>
                             <div class='fb_content'>
@@ -305,7 +305,7 @@
                         <div class="featured_box ">
                             <div class="fb_image">
                                 <a href="compnay-profile-single.html">
-                                    <img alt="brand logo" src="assets/images/c-logo-05.webp">
+                                    <img alt="brand logo" src="{{ asset('assets/images/c-logo-05.webp') }}">
                                 </a>
                             </div>
                             <div class='fb_content'>
@@ -348,7 +348,7 @@
                         <div class="featured_box ">
                             <div class="fb_image">
                                 <a href="compnay-profile-single.html">
-                                    <img alt="brand logo" src="assets/images/c-logo-05.webp">
+                                    <img alt="brand logo" src="{{ asset("assets/images/c-logo-05.webp") }}">
                                 </a>
                             </div>
                             <div class='fb_content'>
@@ -498,7 +498,7 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="post_box">
-                            <img alt="" src="assets/images/blog1.jpg" class="img-responsive">
+                            <img alt="" src="{{ asset("assets/images/blog1.jpg") }}" class="img-responsive">
                             <div class="post_content">
                                 <h6>
                                     <a href="blog-single.html">4 Secrets To Be Strategic About Your Job Search</a>
@@ -510,7 +510,7 @@
                     </div>
                     <div class="col-md-4">
                         <div class="post_box">
-                            <img alt="" src="assets/images/blog2.jpg" class="img-responsive">
+                            <img alt="" src="{{ asset("assets/images/blog2.jpg") }}" class="img-responsive">
                             <div class="post_content">
                                 <h6>
                                     <a href="blog-single.html">Why Long-Term Unemployment Isn’t As Bad As You Think</a>
@@ -522,7 +522,7 @@
                     </div>
                     <div class="col-md-4">
                         <div class="post_box">
-                            <img alt="" src="assets/images/blog3.jpg" class="img-responsive">
+                            <img alt="" src="{{ asset('assets/images/blog3.jpg') }}" class="img-responsive">
                             <div class="post_content">
                                 <h6>
                                     <a href="blog-single.html">6 Ways Your Job is Losing You Future Earnings</a>
@@ -549,7 +549,7 @@
                     <div class="col-auto">
                         <div class="status_box" data-aos="fade-in" data-aos-delay="600">
                             <img alt="" data-aos="fade-up" data-aos-delay="1000"
-                                src="assets/images/i-paper-plane.png">
+                                src="{{ asset("assets/images/i-paper-plane.png") }}">
 
                             <h3>83</h3>
                             <p>Job Posted.</p>
@@ -558,7 +558,7 @@
                     <div class="col-auto">
                         <div class="status_box" data-aos="fade-in" data-aos-delay="800">
                             <img alt="" data-aos="fade-up" data-aos-delay="1200"
-                                src="assets/images/i-doctor.png">
+                                src="{{ asset("assets/images/i-doctor.png") }}">
 
                             <h3>16</h3>
                             <p>Job Filled.</p>
@@ -567,7 +567,7 @@
                     <div class="col-auto">
                         <div class="status_box" data-aos="fade-in" data-aos-delay="1000">
                             <img alt="" data-aos="fade-up" data-aos-delay="1400"
-                                src="assets/images/i-company.png">
+                                src="{{ asset("assets/images/i-company.png") }}">
                             <h3>36</h3>
                             <p>Companies</p>
                         </div>
@@ -575,7 +575,7 @@
                     <div class="col-auto">
                         <div class="status_box" data-aos="fade-in" data-aos-delay="1200">
                             <img alt="" data-aos="fade-up" data-aos-delay="1600"
-                                src="assets/images/i-mamber.png">
+                                src="{{ asset("assets/images/i-mamber.png") }}">
                             <h3>175</h3>
                             <p>Members</p>
                         </div>
@@ -594,41 +594,41 @@
                 <h2 data-aos="fade-up" data-aos-delay="400" class="section_h">Our Partners</h2>
                 <ul class="partner_carousel owl-carousel owl-theme">
                     <li>
-                        <a href="#"><img alt="brand logo" src="assets/images/company-logo-1.svg"></a>
+                        <a href="#"><img alt="brand logo" src="{{ asset("assets/images/company-logo-1.svg") }}"></a>
                     </li>
                     <li>
-                        <a href="#"><img alt="brand logo" src="assets/images/company-logo-2.svg"></a>
+                        <a href="#"><img alt="brand logo" src="{{ asset("assets/images/company-logo-2.svg") }}"></a>
                     </li>
                     <li>
-                        <a href="#"><img alt="brand logo" src="assets/images/company-logo-3.svg"></a>
+                        <a href="#"><img alt="brand logo" src="{{ asset("assets/images/company-logo-3.svg") }}"></a>
                     </li>
                     <li>
-                        <a href="#"><img alt="brand logo" src="assets/images/company-logo-4.png"></a>
+                        <a href="#"><img alt="brand logo" src="{{ asset("assets/images/company-logo-4.png") }}"></a>
                     </li>
                     <li>
-                        <a href="#"><img alt="brand logo" src="assets/images/company-logo-5.png"></a>
+                        <a href="#"><img alt="brand logo" src="{{ asset("assets/images/company-logo-5.png") }}"></a>
                     </li>
                     <li>
-                        <a href="#"><img alt="brand logo" src="assets/images/company-logo-1.svg"></a>
+                        <a href="#"><img alt="brand logo" src="{{ asset("assets/images/company-logo-1.svg") }}"></a>
                     </li>
                     <li>
-                        <a href="#"><img alt="brand logo" src="assets/images/company-logo-2.svg"></a>
+                        <a href="#"><img alt="brand logo" src="{{ asset("assets/images/company-logo-2.svg") }}"></a>
                     </li>
                     <li>
-                        <a href="#"><img alt="brand logo" src="assets/images/company-logo-3.svg"></a>
+                        <a href="#"><img alt="brand logo" src="{{ asset("assets/images/company-logo-3.svg") }}"></a>
                     </li>
                     <li>
-                        <a href="#"><img alt="brand logo" src="assets/images/company-logo-4.png"></a>
+                        <a href="#"><img alt="brand logo" src="{{ asset("assets/images/company-logo-4.png") }}"></a>
                     </li>
                     <li>
-                        <a href="#"><img alt="brand logo" src="assets/images/company-logo-5.png"></a>
+                        <a href="#"><img alt="brand logo" src="{{ asset("assets/images/company-logo-5.png") }}"></a>
                     </li>
                 </ul>
             </div>
         </div>
     </main>
     @include('includes.home_footer')
-    @include('includes.home_js')
+    @include('includes.home_js_extended')
 </body>
 
 </html>

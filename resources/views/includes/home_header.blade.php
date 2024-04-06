@@ -26,19 +26,20 @@
                                             <a href="job-seeker-dashboard.html">Job dashboard</a>
                                         </li>
                                         <li>
-                                            <a href="browse-jobs.html">Browse jobs</a>
+                                            <a href="{{ route("browse_jobs") }}">Browse jobs</a>
                                         </li>
 
                                         <li>
-                                            <a href="job-single.html">Job single</a>
+                                            <a href="{{ route("job_details") }}">Job single</a>
                                         </li>
 
                                         <li>
-                                            <a href="my-stared-jobs.html">My stared jobs</a>
+                                            <a href="{{ route("stared_jobs") }}">My stared jobs</a>
                                         </li>
                                         <li>
-                                            <a href="staff-profile-single.html">Job seeker profile</a>
+                                            <a href="{{ route("user_profile") }}">Job seeker profile</a>
                                         </li>
+
                                         <li>
                                             <a href="edit-profile.html">Update my profile</a>
                                         </li>
@@ -193,9 +194,9 @@
                                                     <a href="browse-jobs.html">
                                                         <div class="usertype_img">
                                                             <img alt=""
-                                                                src="assets/images/usertype-2.png">
+                                                                src="{{ asset("assets/images/usertype-2.png") }}">
                                                             <img alt="" class="usertype-addon"
-                                                                src="assets/images/usertype-2-addon.png">
+                                                                src="{{ asset("assets/images/usertype-2-addon.png") }}">
                                                         </div>
                                                         <div>
                                                             <h3>I'm looking for a job</h3>
@@ -210,9 +211,9 @@
                                                     <a href="post-a-job.html">
                                                         <div class="usertype_img">
                                                             <img alt=""
-                                                                src="assets/images/usertype-1.png">
+                                                                src="{{ asset("assets/images/usertype-1.png") }}">
                                                             <img alt="" class="usertype-addon"
-                                                                src="assets/images/usertype-1-addon.png">
+                                                                src="{{ asset("assets/images/usertype-1-addon.png") }}">
                                                         </div>
                                                         <div>
                                                             <h3>I want to post job</h3>

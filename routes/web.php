@@ -1,6 +1,14 @@
 <?php
 
+use App\Http\Controllers\BrowseCompaniesController;
+use App\Http\Controllers\BrowseJobsController;
+use App\Http\Controllers\ForgotPasswordController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\JobsSinglePageController;
+use App\Http\Controllers\LoginController;
+use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\RegisterController;
+use App\Http\Controllers\StaredJobsController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,6 +22,15 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::resource('/', [HomeController::class, 'index'])->name('home');
 Route::get('/', [HomeController::class, 'index'])->name('app.home');
+Route::get('/browse_jobs', [BrowseJobsController::class, 'index'])->name('browse_jobs');
+Route::get('/job_details', [JobsSinglePageController::class, 'index'])->name('job_details');
+Route::get('/stared_jobs', [StaredJobsController::class, 'index'])->name('stared_jobs');
+Route::get('/user_profile', [ProfileController::class, 'index'])->name('user_profile');
+Route::get('/edit_profile', [ProfileController::class, 'editProfile'])->name('edit_profile');
+Route::get('/register', [RegisterController::class, 'index'])->name('register');
+Route::get('/login', [LoginController::class, 'index'])->name('login');
+Route::get('/forgot_password', [ForgotPasswordController::class, 'index'])->name('forgot_password');
+Route::get('/browse_companies', [BrowseCompaniesController::class, 'index'])->name('browse_companies');
+
 

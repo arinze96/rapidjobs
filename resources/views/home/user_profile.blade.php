@@ -6,7 +6,7 @@
     </head>
 <body>
 
- @include('includes.home_header_one')
+ @include('includes.home_header_one', ['pageTitle' => 'USer Profile'])
     <main>
         <div class="single_job">
             <div class="container">

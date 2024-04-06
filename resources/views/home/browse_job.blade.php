@@ -7,7 +7,7 @@
 </head>
 
 <body>
-    @include('includes.home_header')
+    @include('includes.home_header_one', ['pageTitle' => 'Browse Jobs'])
     <main>
         <div class="job_container">
             <div class="container">

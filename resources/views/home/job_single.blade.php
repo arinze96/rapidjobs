@@ -8,7 +8,7 @@
 
 <body>
 
-   @include('includes.home_header')
+   @include('includes.home_header_one', ['pageTitle' => "Job Details"])
 
     <main>
         <div class="single_job">

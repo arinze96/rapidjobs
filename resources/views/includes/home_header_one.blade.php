@@ -16,54 +16,38 @@
                                 </div>
                             </div>
                             <ul>
-                                <li class="has-sub-menu ">
-                                    <a href="index.html">Home</a>
-                                    <ul class="sub-menu">
-                                        <li>
-                                            <a href="index.html">Homepage 1</a>
-                                        </li>
-                                        <li>
-                                            <a href="home-page-2.html">Homepage 2</a>
-                                        </li>
-                                        <li>
-                                            <a href="home-page-3.html">Homepage 3</a>
-                                        </li>
-                                        <li>
-                                            <a href="home-page-4.html">Homepage 4</a>
-                                        </li>
-                                    </ul>
+                                <li class="current_page">
+                                    <a href="{{ route("app.home") }}">Home</a>
                                 </li>
                                 <li class="has-sub-menu">
                                     <a href="index.html">Job Seekers</a>
                                     <ul class="sub-menu">
                                         <li>
-                                            <a href="job-seeker-dashboard.html">Job dashboard</a>
-                                        </li>
-                                        <li>
-                                            <a href="browse-jobs.html">Browse jobs</a>
+                                            <a href="{{ route("browse_jobs") }}">Browse jobs</a>
                                         </li>
 
                                         <li>
-                                            <a href="job-single.html">Job single</a>
-                                        </li>
-                                        <li>
-                                            <a href="my-stared-jobs.html">My stared jobs</a>
-                                        </li>
-                                        <li>
-                                            <a href="staff-profile-single.html">Job seeker profile</a>
-                                        </li>
-                                        <li>
-                                            <a href="edit-profile.html">Update my profile</a>
+                                            <a href="{{ route("job_details") }}">Job single</a>
                                         </li>
 
                                         <li>
-                                            <a href="edit-password.html">Change password</a>
+                                            <a href="{{ route("stared_jobs") }}">My stared jobs</a>
                                         </li>
                                         <li>
-                                            <a href="registration.html">Registration</a>
+                                            <a href="{{ route("user_profile") }}">Job seeker profile</a>
                                         </li>
                                         <li>
-                                            <a href="browse-companies.html">Browse companies</a>
+                                            <a href="{{ route("edit_profile") }}">Update my profile</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="{{ route("forgot_password") }}">Change password</a>
+                                        </li>
+                                        <li>
+                                            <a href="{{ route("register") }}">Registration</a>
+                                        </li>
+                                        <li>
+                                            <a href="{{ route("browse_companies") }}">Browse companies</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -197,7 +181,7 @@
             </div>
         </div>
         <div class="header_btm">
-            <h2>My Job Listing</h2>
+            <h2>{{ $pageTitle }}</h2>
         </div>
     </div>
 </header>
