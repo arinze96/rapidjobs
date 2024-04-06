@@ -8,4 +8,11 @@ use Illuminate\Database\Eloquent\Model;
 class BillingCycle extends Model
 {
     use HasFactory;
+
+    protected $fillable = [
+        'plan_id',
+        'billing_cycle',
+        'billing_address',
+        'payment_method',
+    ];
 }

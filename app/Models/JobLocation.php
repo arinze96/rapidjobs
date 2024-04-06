@@ -8,4 +8,12 @@ use Illuminate\Database\Eloquent\Model;
 class JobLocation extends Model
 {
     use HasFactory;
+
+    protected $fillable = [
+        'job_id',
+        'city',
+        'state',
+        'country',
+        'timezone',
+    ];
 }

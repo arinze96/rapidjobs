@@ -8,4 +8,10 @@ use Illuminate\Database\Eloquent\Model;
 class EducationHistory extends Model
 {
     use HasFactory;
+
+    protected $fillable = [
+        'user_id',
+        'year',
+        'degree_name',
+    ];
 }
