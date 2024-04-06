@@ -13,6 +13,8 @@ class Apllication extends Model
         'user_id',
         'job_id',
         'application_date',
-        'application_status'
+        'application_status',
+        'created_at',
+        'updated_at'
     ];
 }

@@ -26,5 +26,7 @@ class Chat extends Model
         'blocked_status',
         'archived_status',
         'notification_settings',
+        'created_at',
+        'updated_at'
     ];
 }

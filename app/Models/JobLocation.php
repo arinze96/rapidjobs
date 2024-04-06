@@ -15,5 +15,7 @@ class JobLocation extends Model
         'state',
         'country',
         'timezone',
+        'created_at',
+        'updated_at'
     ];
 }

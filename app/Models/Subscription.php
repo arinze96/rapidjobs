@@ -22,5 +22,7 @@ class Subscription extends Model
         'discount_code',
         'subscription_duration',
         'subscription_benefits',
+        'created_at',
+        'updated_at'
     ];
 }

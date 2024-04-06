@@ -21,5 +21,7 @@ class Plan extends Model
         'tax_included',
         'refund_policy',
         'support_options',
+        'created_at',
+        'updated_at'
     ];
 }

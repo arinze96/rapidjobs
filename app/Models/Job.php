@@ -30,5 +30,7 @@ class Job extends Model
         'benefits',
         'company_website',
         'bannner_image',
+        'created_at',
+        'updated_at'
     ];
 }

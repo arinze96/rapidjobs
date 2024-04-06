@@ -27,5 +27,7 @@ class Transaction extends Model
         'transaction_status',
         'transaction_source',
         'plan_id',
+        'created_at',
+        'updated_at'
     ];
 }

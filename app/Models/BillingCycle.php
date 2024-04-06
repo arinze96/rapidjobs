@@ -14,5 +14,7 @@ class BillingCycle extends Model
         'billing_cycle',
         'billing_address',
         'payment_method',
+        'created_at',
+        'updated_at'
     ];
 }

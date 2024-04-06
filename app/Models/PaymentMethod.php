@@ -11,6 +11,8 @@ class PaymentMethod extends Model
 
     protected $fillable = [
         'payment_type',
-        'payment_gateway'
+        'payment_gateway',
+        'created_at',
+        'updated_at'
     ];
 }

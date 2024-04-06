@@ -13,5 +13,7 @@ class Preference extends Model
         'user_id',
         'location',
         'type',
+        'created_at',
+        'updated_at'
     ];
 }

@@ -11,5 +11,7 @@ class Skills extends Model
 
     protected $fillable = [
         'skill_name',
+        'created_at',
+        'updated_at'
     ];
 }

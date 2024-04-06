@@ -13,5 +13,7 @@ class Certificate extends Model
         'year',
         'company',
         'date_aquired',
+        'created_at',
+        'updated_at'
     ];
 }

@@ -19,5 +19,7 @@ class Resume extends Model
         'resume_status',
         'resume_format',
         'resume_language',
+        'created_at',
+        'updated_at'
     ];
 }

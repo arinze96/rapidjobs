@@ -23,6 +23,8 @@ class Notification extends Model
         'notification_settings',
         'notification_delivery_status',
         'notification_title',
-        'notification_trigger_event'
+        'notification_trigger_event',
+        'created_at',
+        'updated_at'
     ]; 
 }

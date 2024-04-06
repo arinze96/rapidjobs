@@ -12,5 +12,7 @@ class EmploymentType extends Model
     protected $fillable = [
         'job_id',
         'type',
+        'created_at',
+        'updated_at'
     ];
 }

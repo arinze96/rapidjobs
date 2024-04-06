@@ -13,5 +13,7 @@ class EducationHistory extends Model
         'user_id',
         'year',
         'degree_name',
+        'created_at',
+        'updated_at'
     ];
 }
