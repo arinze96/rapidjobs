@@ -17,3 +17,4 @@ class EducationHistory extends Model
         'updated_at'
     ];
 }
+

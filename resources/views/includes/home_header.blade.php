@@ -20,76 +20,75 @@
                                     <a href="{{ route("app.home") }}">Home</a>
                                 </li>
                                 <li class="has-sub-menu">
-                                    <a href="index.html">Job Seekers</a>
+                                    <a>Job Seekers</a>
                                     <ul class="sub-menu">
-                                        <li>
+                                        {{-- <li>
                                             <a href="job-seeker-dashboard.html">Job dashboard</a>
-                                        </li>
+                                        </li> --}}
                                         <li>
                                             <a href="{{ route("browse_jobs") }}">Browse jobs</a>
                                         </li>
 
-                                        <li>
+                                        {{-- <li>
                                             <a href="{{ route("job_details") }}">Job single</a>
-                                        </li>
+                                        </li> --}}
 
-                                        <li>
+                                        {{-- <li>
                                             <a href="{{ route("stared_jobs") }}">My stared jobs</a>
-                                        </li>
-                                        <li>
+                                        </li> --}}
+                                        {{-- <li>
                                             <a href="{{ route("user_profile") }}">Job seeker profile</a>
-                                        </li>
+                                        </li> --}}
 
-                                        <li>
+                                        {{-- <li>
                                             <a href="edit-profile.html">Update my profile</a>
-                                        </li>
+                                        </li> --}}
 
-                                        <li>
+                                        {{-- <li>
                                             <a href="edit-password.html">Change password</a>
-                                        </li>
-                                        <li>
+                                        </li> --}}
+                                        {{-- <li>
                                             <a href="registration.html">Registration</a>
-                                        </li>
+                                        </li> --}}
                                         <li>
-                                            <a href="browse-companies.html">Browse companies</a>
+                                            <a href="{{ route("browse_companies") }}">Browse companies</a>
                                         </li>
                                     </ul>
                                 </li>
                                 <li class="has-sub-menu">
                                     <a href="#">For employers</a>
                                     <ul class="sub-menu">
-                                        <li>
+                                        {{-- <li>
                                             <a href="job-dashboard.html">Job dashboard</a>
-                                        </li>
+                                        </li> --}}
                                         <li>
-                                            <a href="post-a-job.html">Post a job</a>
+                                            <a href="{{ route('post_jobs') }}">Post a job</a>
                                         </li>
-                                        <li>
+                                        {{-- <li>
                                             <a href="my-job-listing.html">My Jobs listing</a>
-                                        </li>
-                                        <li>
+                                        </li> --}}
+                                        {{-- <li>
                                             <a href="find-staff.html">Find staff</a>
-                                        </li>
-                                        <li>
+                                        </li> --}}
+                                        {{-- <li>
                                             <a href="compnay-profile-single.html">Company profile</a>
-                                        </li>
+                                        </li> --}}
 
-                                        <li>
+                                        {{-- <li>
                                             <a href="emp-edit-profile.html">Update profile</a>
-                                        </li>
-                                        <li>
+                                        </li> --}}
+                                        {{-- <li>
                                             <a href="emp-edit-password.html">Change password</a>
-                                        </li>
-                                        <li>
+                                        </li> --}}
+                                        {{-- <li>
                                             <a href="emp-registration.html">Employer registration</a>
-                                        </li>
+                                        </li> --}}
                                     </ul>
                                 </li>
 
-                                <li class="has-sub-menu">
-                                    <a href="#">Pages</a>
+                                {{-- <li class="has-sub-menu">
+                                    <a href="#">Essentials</a>
                                     <ul class="sub-menu">
-
                                         <li>
                                             <a href="blog.html">blog</a>
                                         </li>
@@ -115,31 +114,19 @@
                                             <a href="404.html">404</a>
                                         </li>
                                     </ul>
+                                </li> --}}
+                                <li>
+                                    <a href="{{ route("app.home") }}">Contact Us</a>
+                                </li>
+                                <li>
+                                    <a href="{{ route('login') }}">Login</a>
                                 </li>
                             </ul>
                         </nav>
                         <div class="ac_nav">
-                            <div class="login_pop">
-                                <button class="btn btn-primary">Login / Sign up <i
-                                        class="fas fa-caret-down"></i></button>
-                                <div class="login_pop_box">
-                                    <span class="twobtn_cont">
-                                        <a class=" signjs_btn" href="registration.html">
-                                            <span>Job seekers</span> Sign up
-                                            <i class="far fa-user"></i>
-                                        </a>
-                                        <a class=" signrs_btn" href="emp-registration.html"> <span>EMPLOYERS</span>
-                                            Sign up
-                                            <i class="fas fa-landmark"></i>
-                                        </a>
-                                    </span>
-                                    <div>
-                                        <span class="member_btn">Already a member?</span>
-                                        <a class="lgin_btn btn btn-primary" href="login.html">
-                                            Login
-                                        </a>
-                                    </div>
-                                </div>
+                            <div class="login_pop"> <a class="btn btn-primary" href="{{ route('register') }}">
+                                    Sign up
+                                </a>
                             </div>
                         </div>
                     </div>

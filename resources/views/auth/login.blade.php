@@ -8,7 +8,7 @@
 
 <body>
 
-    @include('includes.home_header')
+    @include('includes.home_header_one', ['pageTitle' => "Login Page"])
 
     <main>
         <div class="only-form-pages">

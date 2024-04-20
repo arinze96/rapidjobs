@@ -19,7 +19,7 @@ class Transaction extends Model
         'currency',
         'invoice_id',
         'transaction_description',
-        'billing_id',
+        'billing_cycle_id',
         'tax_amount',
         'discount_amount',
         'ip_address',

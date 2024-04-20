@@ -8,7 +8,7 @@
 
 <body>
 
-    @include('includes.home_header')
+    @include('includes.home_header_one', ['pageTitle' => "Register Page"])
     <main>
         <div class="only-form-pages">
             <div class="container">
